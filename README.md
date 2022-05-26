@@ -10,6 +10,10 @@ It implements the bjorklund's algorithm that is described by Godfried Toussaint 
 
 ## Purpose
 
+_Fork notes:_
+
+_In this fork I edited the getPattern function to return a note and a null value for use in a Tone.js sequence._
+
 I wrote this library because I couldn't find an implementation that yields to the expected results as described on the paper above and also being well tested with unit tests and code coverage.
 
 The current solution is a javascript interpretation of the python code that is retrieved from [atonalmicroshores.com](http://www.atonalmicroshores.com/2014/03/bjorklund-py/)
